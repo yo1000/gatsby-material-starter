@@ -1,8 +1,9 @@
 @import '~react-md/src/scss/react-md';
-$md-primary-color: $md-grey-400;
-$md-secondary-color: $md-red-800;
-$md-tertiary-color: $md-grey-300;
+$md-primary-color: $md-deep-orange-800;     // $md-grey-400;
+$md-secondary-color: $md-deep-orange-500;   // $md-red-800;
+$md-tertiary-color: $md-grey-50;            // $md-grey-300;
 
+html,
 .main-container,
 .darker-background {
     background-color: $md-tertiary-color;
@@ -12,3 +13,58 @@ a:link {
     color: $md-secondary-color;
     text-decoration: none;
 }
+
+.footer {
+    background: transparent;
+    padding: 0 1rem .5rem 1rem;
+}
+
+.gatsby-highlight-code-line {
+    display: block;
+    margin-right: -1em;
+    margin-left: -1em;
+    padding-right: 1em;
+    padding-left: 0.75em;
+    border-left: 0.25em solid #f99;
+  }
+
+.gatsby-highlight {
+    border-radius: 0.3em;
+    margin: 0.5em 0;
+    padding: 1em;
+    overflow: auto;
+}
+
+.gatsby-highlight pre[class*="language-"] {
+    margin: 0;
+    padding: 0;
+    overflow: initial;
+    float: left; /* 1 */
+    min-width: 100%; /* 2 */
+    padding: .5rem 1rem;
+}
+.gatsby-highlight pre[class*="language-"].line-numbers {
+    padding: .5rem 4rem;
+}
+
+.line-numbers .line-numbers-rows {
+    min-width: 3rem;
+    padding: .5rem 0 .5rem 1rem;
+}
+
+.main-content :not(pre) > code[class*="language-"] {
+    padding: 0.0625rem .375rem;
+}
+
+h1, h2 {
+    margin-top: 3rem;
+}
+
+h3, h4 {
+    margin-top: 2rem;
+}
+
+h5, h6 {
+    margin-top: 1.5rem;
+}
+
