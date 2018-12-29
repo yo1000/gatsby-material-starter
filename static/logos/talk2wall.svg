@@ -3,7 +3,7 @@
     <style>
       #squall-quistis,
       #dialogues-alpha {
-        fill: #565656;
+        fill: #757575;
       }
       .cls-1 {
         opacity: 0.75;
